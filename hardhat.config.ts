@@ -67,10 +67,6 @@ const config: HardhatUserConfig = {
       saveDeployments: true,
       tags: ["local"],
     },
-    canto: {
-      url: "http://143.198.3.19:8545",
-      accounts: ["a9543ab2356f3cff70de65239509831865c2c1e0f4c6b315ed51c2c93af453b7"]
-    },
     hardhat: {
       forking: {
         enabled: process.env.FORKING === "true",
